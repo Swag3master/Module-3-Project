@@ -1,0 +1,17 @@
+integer age
+integer price
+
+// Get the user's age
+age = Get next input
+
+// Determine the price based on age
+if age < 15
+   price = 20
+else
+   price = 40
+
+// Output the entrance price
+Put "The entrance price is " to output
+Put price to output
+Put "." to output
+
